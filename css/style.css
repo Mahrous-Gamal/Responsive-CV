@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+.main{
+    /* border: 2px solid red; */
+    box-shadow: 0 0 10px #95c3e9, 0 0 30px #185c94, 0 0 60px #053258;
+}
+@media (min-width: 768px){
+    .main{
+        margin-top: 100px !important;
+        width:90%;
+    }
+}
+@media (min-width: 992px){
+    .main{
+        width:72% !important;
+        margin-top: 0px !important;
+    }
+}
+
+
+.main-left{
+    background-color: #051b2e;
+    color: white;
+}
+.main-left img{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #95c3e9, 0 0 30px #185c94, 0 0 60px #053258;
+    margin: 20px 0;
+}
+
+.icons {
+    list-style-type: none;
+    display: flex;
+    /* border: 2px solid red; */
+    width: 280px;
+    justify-content: space-between; 
+    padding: 0;
+    right: 5px;
+    bottom: 0;
+    margin: 20px 0;
+    
+}
+
+.icons .icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all .2s ease;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+.icons .face {
+    background: #4267B2;
+    border-radius: 4px;
+}
+
+.icons .linked {
+
+    background: #0077b5;
+    border-radius: 4px;
+
+
+}
+
+.icons .twetter {
+
+    background: #1DA1F2;
+    border-radius: 4px;
+
+}
+
+.icons .github {
+
+    background: black;
+    border-radius: 4px;
+
+}
+
+.icons .whats {
+
+    background: #075e54;
+    background: #25d366;
+    border-radius: 4px;
+
+}
+.icons .icon:hover {
+    transform: scale(1.1);
+}
