@@ -1,4 +1,4 @@
-# Responsive-CV
+# Responsive CV
 ## My CV
 - Responsive Website Using HTML, CSS , and Boostrap.
 - Developed first with the Mobile First methodology, then for desktop.
