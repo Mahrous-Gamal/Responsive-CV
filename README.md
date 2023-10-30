@@ -23,6 +23,7 @@ Linux and macOS:
 ```bash
 sudo git clone https://github.com/Mahrous-Gamal/Responsive-CV.git
 ```
+Windows:
 
 ```bash
 git clone https://github.com/Mahrous-Gamal/Responsive-CV.git
